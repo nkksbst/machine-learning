@@ -1,0 +1,6 @@
+# ignore all these folders
+image_directory/
+# ignore specific files
+draft.py
+# ignore all files with ff ext
+*.png

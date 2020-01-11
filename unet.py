@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Created on Tue Dec 24 08:12:12 2019
+Created on Tue Dec 24
 @author: Monikka Busto
 Background Segmentation Using U-Net
 '''

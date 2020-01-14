@@ -4,7 +4,7 @@ Created on Sat Jan 11 08:46:32 2020
 
 @author: Monikka Busto
 """
-%matplotlib 
+# %matplotlib 
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -16,7 +16,6 @@ def load_image(file_path):
     np_im = np.array(im)
     return np_im
 
-
 x = np.linspace(0, 10, 100)
 
 # functions
@@ -25,6 +24,9 @@ plt.plot(x, np.sin(x))
 plt.xlabel("This is an x label")
 plt.ylabel("This is a y label")
 plt.savefig('fig_filename.png')
+
+# overlaying functions
+
 
 # images
 plt.imshow(img, cmap = 'gray')
